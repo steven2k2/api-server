@@ -45,13 +45,13 @@ This project sets up an Express API server and PostgreSQL database using Docker 
 ```bash
 docker-compose up --build
 ```
-4. The API server should now be accessible at http://localhost:3000.
+4. The API server should now be accessible at http://localhost:3005.
 
 ## Usage
 
 Once the containers are running, you can access the API endpoints:
-- Test the server: Visit http://localhost:3000/api to check if the API is running.
-- View sample data: Visit http://localhost:3000/api/users to retrieve the list of users from PostgreSQL.
+- Test the server: Visit http://localhost:3005/api to check if the API is running.
+- View sample data: Visit http://localhost:3005/api/users to retrieve the list of users from PostgreSQL.
 
 ## Endpoints
 
@@ -68,7 +68,7 @@ DB_PASSWORD=mypassword
 DB_NAME=mydatabase
 DB_HOST=postgres
 DB_PORT=5432
-PORT=3000
+PORT=3005
 ```
 
 ## Testing
@@ -78,11 +78,11 @@ To test the API, you can use:
 - **Curl:**
 
 ```bash
-  curl http://localhost:3000/api
-  curl http://localhost:3000/api/users
+  curl http://localhost:3005/api
+  curl http://localhost:3005/api/users
 ```
 
-- **Postman or any other API client:** Send requests to http://localhost:3000/api and http://localhost:3000/api/users.
+- **Postman or any other API client:** Send requests to http://localhost:3005/api and http://localhost:3005/api/users.
   Here’s the content formatted in Markdown:
 
 ## License
